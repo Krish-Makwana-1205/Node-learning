@@ -1,12 +1,8 @@
-const fs = require("fs");
+const http = require("http");
 
-setTimeout(function(){
-    console.log(90);
-}, 1000);
-fs.readFile("./sample.txt","utf-8", function(err, result){
-    if(!err){
-        console.log(result);
-    }
-})
-console.log("Hello");
-console.log(67);
+const firstserver = http.createServer((req, res) => {
+    console.log(req);
+    res.end("Server on lets go");
+});
+
+firstserver.listen(8000, ()=> console.log("We are online"));
