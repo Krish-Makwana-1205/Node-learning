@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "first_name": "Nicolina",
+        "last_name": "Haddeston",
+        "email": "nhaddeston0@instagram.com",
+        "gender": "Female"
+    },
+    {
+        "id": 2,
+        "first_name": "Kiele",
+        "last_name": "Suscens",
+        "email": "ksuscens1@dot.gov",
+        "gender": "Female"
+    },
+    {
+        "id": 3,
+        "first_name": "Gorden",
+        "last_name": "Garbar",
+        "email": "ggarbar2@ask.com",
+        "gender": "Bigender"
+    },
+    {
+        "id": 4,
+        "first_name": "Symon",
+        "last_name": "Partlett",
+        "email": "spartlett3@odnoklassniki.ru",
+        "gender": "Male"
+    },
+    {
+        "id": 5,
+        "first_name": "Kimberli",
+        "last_name": "Peyzer",
+        "email": "kpeyzer4@blog.com",
+        "gender": "Bigender"
+    },
+    {
+        "id": 6,
+        "first_name": "Tom",
+        "last_name": "Pollok",
+        "email": "tpollok5@sfgate.com",
+        "gender": "Male"
+    },
+    {
+        "id": 7,
+        "first_name": "Jessie",
+        "last_name": "Rushman",
+        "email": "jrushman6@biglobe.ne.jp",
+        "gender": "Male"
+    },
+    {
+        "id": 8,
+        "first_name": "Misti",
+        "last_name": "Wilshire",
+        "email": "mwilshire7@sfgate.com",
+        "gender": "Female"
+    },
+    {
+        "id": 9,
+        "first_name": "Timi",
+        "last_name": "Levicount",
+        "email": "tlevicount8@360.cn",
+        "gender": "Agender"
+    },
+    {
+        "id": 10,
+        "first_name": "Cody",
+        "last_name": "Schollar",
+        "email": "cschollar9@arstechnica.com",
+        "gender": "Male"
+    }
+]

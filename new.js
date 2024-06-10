@@ -1,15 +1,16 @@
 const http = require("http");
 const express = require("express");
-
+const udata = require("./MOCK_DATA.json");
 let app = express();
 
-app.get('/', (req, res)=>{
-    return  res.send("Hello home here");
+app.get('/users', (req, res) => {
+    return res.json(udata);
 });
-app.get('/about', (req, res)=>{
-    return res.send("Hello from about page, " + req.query.name + req.query.age);
+app.get('/users/:id', (req, res) => {
+    const id = Number(req.params.id);
+    const user = udata.find((user) => user.id === id) 
+    return res.json(user);
 });
-
 app.listen(8000, (req, res)=> {
     console.log("Server is up and running");
 })
