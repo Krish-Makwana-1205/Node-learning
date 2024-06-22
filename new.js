@@ -60,6 +60,14 @@ app.post('/api/users',async (req, res) => {
     console.log(result);
     return res.status(201).json({msg : "success"})
 })
+app.patch("/api/user/:id", async (req, res) => {
+    await User.findByIdAndUpdate(req.params.id, {last_name : "changed"});
+    return res.json({status : 'success'});
+})
+app.delete("/api/user/:id", async(req,res) => {
+    await User.findByIdAndDelete(req.params.id);
+    return res.json({status : "success"});
+})
 app.listen(8000, (req, res)=> {
     console.log("Server is up and running");
 })
